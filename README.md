@@ -65,7 +65,7 @@ https://salespredictionusingpython.streamlit.app/
 Sales-Prediction-Using-Python/
 ├── SALES_PREDICTION_USING_PYTHON.ipynb
 ├── lr_model.pkl
-├── Sales_Prediction_Using_Python_Documentation
+├── Sales_Prediction_Using_Python_Documentation.pdf
 ├── app.py
 ├── requirements.txt
 ├── sales_predictions.csv
