@@ -1,7 +1,9 @@
-
 # 📈 Sales Prediction Using Python
 
 ## Model Development & Deployment Documentation
+
+🔗 **Live Streamlit App:**  
+https://salespredictionusingpython.streamlit.app/
 
 ---
 
@@ -19,35 +21,41 @@ The work is divided into two major components:
 
 ## 📊 Dataset Description
 
-The dataset used in this project is the Advertising Dataset, commonly used for regression analysis and sales prediction tasks.
+The dataset used in this project is the **Advertising Dataset**, commonly used for regression analysis and sales prediction tasks.
 
 **Dataset Source:**  
 Kaggle – Advertising Dataset
 
 **Dataset Features:**
-- TV – Advertising budget spent on TV promotions  
-- Radio – Advertising budget spent on radio promotions  
-- Newspaper – Advertising budget spent on newspaper promotions  
-- Sales – Product sales (target variable)
+- **TV** – Advertising budget spent on TV promotions  
+- **Radio** – Advertising budget spent on radio promotions  
+- **Newspaper** – Advertising budget spent on newspaper promotions  
+- **Sales** – Product sales (target variable)
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-EDA was conducted to understand feature distributions and relationships.
+- Performed univariate, bivariate, and multivariate analysis  
+- Correlation analysis confirmed TV as the strongest predictor of Sales  
+- Linear Regression identified as a suitable model  
 
 ---
 
-## 🤖 Model Training
+## 🤖 Model Training & Evaluation
 
-Model Used: Linear Regression  
-Model saved as `lr_model.pkl`.
+- Model Used: Linear Regression  
+- Evaluation Metrics: R² Score, MSE  
+- Trained model saved as `lr_model.pkl`  
 
 ---
 
 ## 🌐 Streamlit Application
 
-Interactive web application built using Streamlit for real-time predictions.
+An interactive Streamlit app allows real-time sales prediction based on advertising spend.
+
+🔗 **Live App:**  
+https://salespredictionusingpython.streamlit.app/
 
 ---
 
@@ -57,6 +65,7 @@ Interactive web application built using Streamlit for real-time predictions.
 Sales-Prediction-Using-Python/
 ├── SALES_PREDICTION_USING_PYTHON.ipynb
 ├── lr_model.pkl
+├── Sales_Prediction_Using_Python_Documentation
 ├── app.py
 ├── requirements.txt
 ├── sales_predictions.csv
@@ -67,6 +76,6 @@ Sales-Prediction-Using-Python/
 
 ## 👨‍💻 Author
 
-**Prasad Shetty**  
+**Durga Prasad**  
 GitHub: https://github.com/shettyprasad-git  
 LinkedIn: https://www.linkedin.com/in/durgaprasadshetty  
